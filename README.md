@@ -1,11 +1,18 @@
 # Relational Database Management Final Project
 Project Name: Chest Game
+
 Project Member: Cheng Su, Guoying Li
+
 Deadline: 11/28/2018 
+
 (click to see more information)
+
 #View criteria here#
+
 #Tables#
+
 #Presentation Slides#
+
 #SQL File#
 
 # Overview
@@ -47,11 +54,13 @@ Marketing Department creates a variety of strategies for marketing, such as send
 
 # Future Concerns
 1. Delete Inactive Players 
+
 As increasing the number of players, the accounts of inactive player would be deleted from the current database management system and at the same time archived into another file which is used to save all the deleted data. In other words, once any data is deleted, it will be automatically archived into another file called PlayerArchive. 
 
 An active player sends message to server every second, if message hasn’t been received for consecutively 1 minute, the player becomes an inactive player.
 
 2. Flow control
+
 To prevent excessive number of players on one map, players are split into rooms and each room can hold at most 15 players. A player will join a room based on the created time of the room. If a player in the room left the game, after 15 seconds a new player is allowed to join this room. If all rooms have more than 10 players, a new room will be created for incoming players.
 
 Special rooms with code can be created. Entering the room requires entering a passcode created for this room.
@@ -60,6 +69,7 @@ Special rooms with code can be created. Entering the room requires entering a pa
 
 # Future Ideas
 1. Social, integrate with other software
+
 Integrate with other login systems, eg. gmail, facebook, wechat, line, kakaotalk
 
 Games with friends instead of alone, social, real-time, real location. 
@@ -67,6 +77,7 @@ Games with friends instead of alone, social, real-time, real location.
 Example: climate in this game depends upon player’s real location (los angeles- hot; new york- cold; otherwise, mild; this is simple but real fun design at this stage. 
 
 2. Real time & locations
+
 In the future, we might be able to retrieve real world locations, eg. shopping mall, parks, flight; rewards may be real as well, such as coupon for shopping. 
 
 Example/application: shopping instruction/map before or during flights, users can spend their time shopping and gaming in their spare time. 
